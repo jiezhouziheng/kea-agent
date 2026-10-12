@@ -1,0 +1,18 @@
+# Local secrets
+.env
+
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+*.tgz
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# test file
+.kea
+.superpowers
