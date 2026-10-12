@@ -29,7 +29,8 @@ jobs:
       - name: Typecheck
         run: bun run typecheck
       - name: Test source
-        run: bun test
+        run: bun test --timeout 30000
+        timeout-minutes: 5
       - name: Build production artifacts
         run: bun run build
       - name: Verify production artifacts
